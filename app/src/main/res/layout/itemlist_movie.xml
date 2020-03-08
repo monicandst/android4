@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:background="#212121"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#212121">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="70dp"
+            android:layout_height="85dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="F R O Z E N"
+                android:textColor="#14FFEC"
+                android:background="#323232"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#323232">
+
+                <Button
+                    android:id="@+id/btn_share"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="#0d7377"
+                    android:text="Share"
+                    android:textColor="#14FFEC" />
+
+                <Button
+                    android:id="@+id/btn_sinopsis"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="0dp"
+                    android:layout_weight="1"
+                    android:background="#0d7377"
+                    android:text="Sinopsis"
+                    android:textColor="#14FFEC" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
